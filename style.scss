@@ -6,6 +6,7 @@ body{
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
     overflow: hidden;
+    user-select: none;
 }
 
 .content {
@@ -16,11 +17,6 @@ body{
     align-items: center;
     background: rgb(199,254,255);
     background: linear-gradient(160deg, rgba(199,254,255,1) 0%, rgba(42,127,210,1) 100%);
-    // background: linear-gradient(160deg, rgb(132, 226, 221) 0%, rgb(143, 183, 219) 100%);
-
-    #hero {
-        user-select: none;
-    }
 }
 
 .buttons {
