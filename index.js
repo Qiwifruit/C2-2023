@@ -56,9 +56,10 @@ function toggleCard() {
         var target = (Math.round(parseInt(getComputedStyle(document.querySelector('.content')).height)*0.1));
         elem.style.bottom = target + "px";
         document.querySelector('#message').innerHTML=`Happy Birthday Mang!
-                        <br><br>You da one year olda, dees make you da quarta of a century old! Da old lady weeth da bad back! Dun worry doh mang, you steel have da many years ahead of you. You goeeng to become da docta and da successful trada and make all da monies (and buy me da Aston Martin and penthousu). May every year be da year of Anne!
-                        <br><br>You be Docta!
-                        <br><br>Get Reech Qweek!
+                        <br><br>You da quarta of a century old! Da old lady! Dun worry doh mang, you steel have da many years ahead of you. You goeeng to become da docta and da successful trada and make all da monies (and buy me da Aston Martin and penthousu). May every year be da year of Anne! 
+                        <br><br>P.S. Tap/cleek for confetti
+                        <br><br>You Be Docta!
+                        <br>Get Reech Qweek!
                         <br><br>~ Qiwi`
     } else {
         elem.style.bottom= "-999px";
