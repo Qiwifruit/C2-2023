@@ -16,7 +16,7 @@ body {
   justify-content: center;
   align-items: center;
   background: #c7feff;
-  background: linear-gradient(160deg, #c7feff 0%, #2a7fd2 100%);
+  background: linear-gradient(160deg, #f0bde3 0%, #ff20a2 100%);
 }
 
 .buttons {

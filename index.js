@@ -42,10 +42,10 @@ document.querySelector('.content').addEventListener('click', () => {
 function toggleSound() {
     var audioElem = document.getElementById('audio');
     if (audioElem.muted == true) {
-        document.querySelector('#toggleSound').innerHTML = `<i class='fas fa-volume-mute'></i>`;
+        document.querySelector('#toggleSound').innerHTML = `<i class='fas fa-volume-up'></i>`;
         audioElem.muted = false;
     } else {
-        document.querySelector('#toggleSound').innerHTML = `<i class="fas fa-volume-up"></i>`;
+        document.querySelector('#toggleSound').innerHTML = `<i class="fas fa-volume-mute"></i>`;
         audioElem.muted = true;
     }
 }
@@ -55,12 +55,10 @@ function toggleCard() {
     if (getComputedStyle(elem).bottom == "-999px") {
         var target = (Math.round(parseInt(getComputedStyle(document.querySelector('.content')).height)*0.1));
         elem.style.bottom = target + "px";
-        document.querySelector('#message').innerHTML=`Happy Birthday Mang!
-                        <br><br>You da quarta of a century old! Da old lady! Dun worry doh mang, you steel have da many years ahead of you. You goeeng to become da docta and da successful trada and make all da monies (and buy me da Aston Martin and penthousu). May every year be da year of Anne! 
-                        <br><br>P.S. Tap/cleek for confetti
-                        <br><br>You Be Docta!
-                        <br>Get Reech Qweek!
-                        <br><br>~ Qiwi`
+        document.querySelector('#message').innerHTML=`Happy Birthday!!
+                        <br><br>Today is the best day of the year, because its the day that the Courtneys was created and Courtneys make the world a better place =). I'm so grateful to be a part of your life and can't wait to share more experiences with you. To the year of PLATYPUS!
+                        <br><br>P.S. Tap/click for confetti
+                        <br><br>Love, the Qiwis`
     } else {
         elem.style.bottom= "-999px";
     }
